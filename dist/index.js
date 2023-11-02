@@ -1,5 +1,4 @@
-"use strict";
-var Hello;
+export var Hello;
 (function (Hello) {
     Hello.CONSTANT_VALUE = "CONSTANT_VALUE";
     function hello(word = "Typescript") {
