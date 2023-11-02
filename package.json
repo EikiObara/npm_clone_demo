@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "tsc",
+    "build": "tsc --module es6",
     "test": "jest"
   },
   "repository": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/EikiObara/npm_clone_demo#readme",
   "devDependencies": {
+    "@babel/parser": "^7.23.0",
     "@babel/preset-env": "^7.23.2",
     "@babel/preset-typescript": "^7.23.2",
     "@types/jest": "^29.5.7",
