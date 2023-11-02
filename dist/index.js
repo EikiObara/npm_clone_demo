@@ -1,8 +1,4 @@
-export var Hello;
-(function (Hello) {
-    Hello.CONSTANT_VALUE = "CONSTANT_VALUE";
-    function hello(word = "Typescript") {
-        return `Hello, ${word}`;
-    }
-    Hello.hello = hello;
-})(Hello || (Hello = {}));
+export const CONSTANT_VALUE = "CONSTANT_VALUE";
+export function hello(word = "Typescript") {
+  return `Hello, ${word}`;
+}

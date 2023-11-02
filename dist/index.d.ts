@@ -1,4 +1,4 @@
-declare namespace Hello {
-    const CONSTANT_VALUE: string;
-    function hello(word?: string): string;
+declare module "npm-clone-demo" {
+    export const CONSTANT_VALUE: string;
+    export function hello(word?: string): string;
 }
