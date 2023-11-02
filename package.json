@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "tsc --module es6",
+    "build": "tsc",
     "test": "jest"
   },
   "repository": {
@@ -24,6 +24,7 @@
     "@babel/parser": "^7.23.0",
     "@babel/preset-env": "^7.23.2",
     "@babel/preset-typescript": "^7.23.2",
+    "@jest/globals": "^29.7.0",
     "@types/jest": "^29.5.7",
     "jest": "^29.7.0",
     "ts-jest": "^29.1.1",
